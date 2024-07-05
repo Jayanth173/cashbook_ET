@@ -1,0 +1,16 @@
+.app {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  display: flex;
+  /* margin-top: 60px; Adjust this to match the header height */
+}
+
+*{
+  /* margin-left: 200px; Offset by the width of the sidebar */
+  /* padding: 20px; */
+  /* width: calc(100% - 200px); */
+  padding: 0;
+  margin: 0;
+}

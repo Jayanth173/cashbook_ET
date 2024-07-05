@@ -1,0 +1,45 @@
+.header {
+  position:sticky;
+  top: 0;
+  left: 0;
+  /* width: 200px; */
+  width: 100px;
+  /* height: 60px; */
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 10px; */
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  /* z-index: 1000;  */
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .profile {
+  display: flex;
+  align-items: center;
+}
+
+.header .profile .profile-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.header .profile span {
+  font-size: 18px;
+}
+
+.logo{
+  width: 180px;
+}

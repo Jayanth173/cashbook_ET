@@ -1,0 +1,93 @@
+.vertical-nav {
+    position: fixed;
+    top: 60px; 
+    left: 0;
+    height: calc(100% - 60px); 
+    width: 250px;
+    background-color: #2b2f3c;
+    color: #fff;
+    padding-top: 30px;
+    box-sizing: border-box;
+    overflow: auto; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button span {
+    margin-left: 10px; /* Add some space between the icon and the text */
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-business-button {
+    background-color:#007bff; 
+  }
+  
+  .add-business-button .icon {
+    margin-right: 8px;
+  }
+  
+  .add-business-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .nav-button.logout-button {
+    background-color: #dc3545; /* Different color for log out button */
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .nav-item.active{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+
+  }
+  .nav-item.active:hover{
+    background-color: #3a3f51;
+  }
+  
+  .nav-item:hover {
+    background-color: #3a3f51;
+  }
+  
+  .nav-item span {
+    margin-left: 10px;
+  }
+  
+  .spacer {
+    flex-grow: 1; 
+  }
+  .nav-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    margin-left: 8px; /* Adjust if needed */
+  }
+  
+  .nav-link span {
+    font-size: 16px; /* Adjust if needed */
+    color: white; /* Adjust if needed */
+  }
